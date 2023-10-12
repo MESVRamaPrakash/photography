@@ -1,0 +1,13 @@
+<div class="row row-cols-1 row-cols-md-3 g-5" style="margin: 80px 20px;">
+    <div class="col" *ngFor = "let f of price">
+      <div class="card h-100 shadow-lg rounded-border-5">
+        <img class="mw-100" [src]="f.src" style="object-fit:cover;" class="card-img-top" [alt]="f.alt" height="350px">
+        <div class="card-body text-center">
+          <h1 class="card-title">{{f.title | uppercase}}</h1>
+          <!-- <h5 class="card-text">{{f.price}}</h5> -->
+          <!-- <h3>{{f.price}}</h3> -->
+          <button class="btn btn-light border-dark" routerLink="/login">{{f.btn}}</button>
+        </div>
+      </div>
+    </div>
+  </div>

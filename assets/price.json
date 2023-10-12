@@ -1,0 +1,30 @@
+[
+    {
+      "id":"1",
+      "dad":"1000",
+      "src":"../assets/jpg/canon.jpg",
+      "alt":"Camera1",
+      "title":"Canon",
+      "btn":"Learn More",
+      "link":"https://in.canon/en/consumer"
+    },
+    {
+      "id":"2",
+      "dad":"1250",
+      "src":"../../assets/jpg/Nikon.jpg",
+      "alt":"Camera2",
+      "title":"Nikon",
+      "btn":"Learn More",
+      "link":"https://www.nikon.co.in/"
+
+    },
+    {
+      "id":"3",
+      "dad":"1500",
+      "src":"../../assets/jpg/sony.jpg",
+      "alt":"Camera3",
+      "title":"Sony",
+      "btn":"Learn More",
+      "link":"https://www.sony.co.in/homepage"
+    }
+  ]

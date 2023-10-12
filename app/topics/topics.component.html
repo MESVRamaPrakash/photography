@@ -1,0 +1,22 @@
+<body>
+<app-topicsnavbar></app-topicsnavbar>
+<div class="container mt-4 pt-6 pb-4" style="padding-top: 70px;">
+<a routerLink="**"><div class="card mb-3 mt-4" style="max-width: 540px;">
+    <div class="row g-0"  *ngFor="let t of topic">
+      <div class="col-md-4 m-0 p-0">
+        <img [src]="t.image" class="img-fluid rounded-start" alt="Settings"  width="200" height="100">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body pb-5 mb-4">
+          <h5 class="card-title">{{t.title}}</h5>
+          <p class="card-text"></p>
+          <p class="card-text"><small class="text-muted">{{t.update}}</small></p>
+        </div><hr>
+      </div>
+    </div> 
+  </div></a> 
+</div>
+<div class="word"><h1 style="position: absolute;left:65%;top:35%;font-size:110px;color:#FCA311">Topics</h1></div>
+<app-footer></app-footer>
+</body>
+

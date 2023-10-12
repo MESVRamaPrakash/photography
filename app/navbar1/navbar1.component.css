@@ -1,0 +1,58 @@
+a {
+    color:white;
+    font-size: 17px;
+}
+a:hover {
+    color:#ccc;
+}
+
+.navbar .container-fluid .navbar-brand {
+    color:#FCA311;
+    font-size: 35px;
+}
+
+.nav-link:hover {
+    cursor:pointer;
+    color:#FCA311;
+}
+
+.active {
+    color:#FCA311 !important;
+}
+
+@media screen and (max-width:739px){
+    .navbar .container-fluid .navbar-brand {
+        font-size: 27px;
+    }
+}
+
+
+@media screen and (min-width:300px) and (max-width:500px){
+    .navbar .container-fluid .navbar-brand {
+        font-size: 26px;
+        position: relative;
+        top:-10px;
+    }
+
+    .navbar .container-fluid button {
+        font-size: 15px;
+        position: relative;
+        top:0px;
+    }
+}
+
+
+@media screen and (min-width:100px) and (max-width:299px){
+    .navbar .container-fluid .navbar-brand {
+        font-size: 13px;
+        position: relative;
+        top:-30px;
+        left:-20px; 
+    }
+    .navbar .container-fluid button {
+        font-size: 10px;
+        position: relative;
+        top:-20px;
+        left:-20px; 
+    }
+}

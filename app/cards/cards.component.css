@@ -1,0 +1,13 @@
+.card-title {
+    color:#000;
+}
+
+button{
+    outline: none;
+}
+
+button:hover {
+    background-color: #FCA311;
+    color:#fff;
+    border:none;
+}
